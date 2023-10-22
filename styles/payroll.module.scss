@@ -1,0 +1,26 @@
+.main{
+    .space_down{
+        margin-bottom: 50px;
+    }
+    .border_right{
+        border-bottom: 1px solid #D8D8D8;
+    }
+    .border_left{
+        border: 1px solid #D8D8D8;
+        border-right: 0px;
+        border-top: 0px;
+    }
+    .button{
+        background-color: #02A4CB;
+        color: white;
+        width: 290px;
+    }
+    .button_outline{
+        border: 1px solid #02A4CB;
+        color: #02A4CB;
+        width: 290px;
+    }
+    .bg_blueish{
+        background: #009BC01A;
+    }
+}

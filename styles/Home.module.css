@@ -12,6 +12,12 @@
   align-items: center;
 }
 
+.paper{
+  width: 80%;
+  margin: 50px auto;
+  padding: 40px 0px;
+}
+
 .footer {
   display: flex;
   flex: 1;

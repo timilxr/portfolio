@@ -51,28 +51,28 @@ export const roles = [
 
 export const projects = [
     {
-        image: "",
+        image: "alluvium.jpeg",
         name: "Alluvium Website",
         description: "",
         technologies: ["Microsoft"],
         url: "https://alluvium.net/"
     },
     {
-        image: "",
+        image: "k-monie.jpeg",
         name: "Kadick Monie",
         description: "",
         technologies: ["Next JS", "React", "Tailwind"],
         url: "https://www.kadickagentbanking.com/"
     },
     {
-        image: "",
+        image: "impact.jpeg",
         name: "Impact Tech",
         description: "",
         technologies: ["Next JS", "React", "Tailwind"],
         url: "https://impacttech.vercel.app/"
     },
     {
-        image: "",
+        image: "au.jpeg",
         name: "Alluvium University Website",
         description: "",
         technologies: ["Next JS", "React", "Tailwind"],

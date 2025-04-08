@@ -13,7 +13,7 @@ const Home: NextPage = () => {
     <div className='bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900 scroll-smooth'>
       <Head>
         <title>Ayorinde Timilehin</title>
-        <meta name="description" content="An online portfolio for Ayorinde Timilehin, a results-driven software engineer with 3+ years of experience in full-stack web development with agile methodologies.
+        <meta name="description" content="An online portfolio for Ayorinde Timilehin, a results-driven software engineer with 4+ years of experience in full-stack web development with agile methodologies.
 Proficient in JavaScript, Typescript, React, NextJs, Angular, and Java, with a strong focus on delivering scalable and efficient
 solutions. Skilled in problem-solving and collaborating with cross-functional teams to meet project goals. Committed to staying updated with emerging technologies and leveraging them to drive innovation. Seeking a challenging role as a
 software engineer to contribute to cutting-edge projects and further enhance technical expertise in a collaborative and

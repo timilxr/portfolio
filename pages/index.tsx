@@ -10,7 +10,7 @@ const Home: NextPage = () => {
   const data = [{}, {}, {}, {}];
 
   return (
-    <div className='bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900 scroll-smooth'>
+    <div className='bg-slate-900 leading-relaxed text-slate-300 antialiased selection:bg-teal-300 selection:text-teal-900 scroll-smooth'>
       <Head>
         <title>Ayorinde Timilehin</title>
         <meta name="description" content="An online portfolio for Ayorinde Timilehin, a results-driven software engineer with 4+ years of experience in full-stack web development with agile methodologies.

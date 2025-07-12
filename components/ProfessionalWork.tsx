@@ -21,7 +21,7 @@ const professionalProjects = [
 			tech: "React, Next.js, TypeScript, Node.js, PostgreSQL, Cypress, CI/CD (GitHub Actions)",
 			impact:
 				"Reduced dashboard load time by 40%, improved accessibility score to 98, and increased user adoption by 30%.",
-			image: "/images/acme-dashboard.png",
+			// image: "/images/acme-dashboard.png",
 		},
 	},
 	{
@@ -43,7 +43,7 @@ const professionalProjects = [
 			tech: "React, Next.js, TypeScript, Ethers.js, Styled Components, Vercel",
 			impact:
 				"Improved transaction success rate by 25%, enabled $10M+ in NFT trades, and streamlined wallet onboarding.",
-			image: "/images/web3labs-marketplace.png",
+			// image: "/images/web3labs-marketplace.png",
 		},
 	},
 ];

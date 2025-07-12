@@ -28,7 +28,7 @@ const CaseStudyPanel = ({ caseStudy }: { caseStudy: CaseStudy }) => {
             <p className="text-slate-300">{caseStudy.problem}</p>
           </div>
           <div>
-            <h4 className="font-semibold text-slate-200">Your Role</h4>
+            <h4 className="font-semibold text-slate-200">Role</h4>
             <p className="text-slate-300">{caseStudy.role}</p>
           </div>
           <div>

@@ -50,6 +50,13 @@ export const roles = [
 ];
 
 export const projects = [
+     {
+        image: "next-gen.png",
+        name: "Nextgen Innovators Foundation Website",
+        technologies: ["HTML5", "CSS", "Next JS", "React", "Tailwind CSS", "SCSS", "Firebase", "Firebase Auth", "Firebase Firestore"],
+        url: "https://next-gen-innovation.vercel.app/",
+        description: "The purpose of the foundation is to provide children with the tools, resources, and support they need to become the next generation of innovators and problem-solvers. As a full stack Web Developer with Nextgen Innovators Foundation, I was tasked with optimizing the UI/UX of the this website, the in-house solution that is used to track and manage the product and business. I also helped implement the authentication and database management system using Firebase.",
+    },
     {
         image: "alluvium.jpeg",
         name: "Alluvium Website",
@@ -82,7 +89,7 @@ export const projects = [
         image: "vim.jpeg",
         name: "VIM Engineering Website",
         technologies: ["HTML5", "CSS", "Next JS", "React", "Tailwind CSS", "SCSS", "Mongoose", "Mongo DB"],
-        url: "https://vim-engineering.vercel.app/",
+        url: "https://vim-eta.vercel.app/",
         description: "ViM Engineering is a company with a vision to contribute to the global efforts of achieving the Sustainable Development Goals (SDGs) by developing and delivering bespoke projects that address the most pressing challenges and opportunities in various domains and regions. Their projects and designs meet the specific needs and expectations of their clients and partners, and delivers on high-quality outcomes that have a lasting impact on the world at large."
     },
 ];

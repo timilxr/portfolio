@@ -10,7 +10,7 @@ const About = () => {
                     My journey into software engineering began with my undergraduate capstone project: the design and implementation of a distributed pulse monitoring system. That experience sparked my passion for using technology to solve real-world problems and improve lives—a passion that continues to shape my career today.
                 </p>
                 <p className="mb-4">
-                    I&apos;m a full-stack software engineer with <b>over four years of hands-on experience</b> developing scalable, high-performance web applications. I&apos;ve worked both independently and as part of cross-functional teams to deliver impactful solutions for sectors including digital identity, enterprise collaboration, and financial services.
+                    I&apos;m a full-stack software engineer with <b>over seven years of hands-on experience</b> developing scalable, high-performance web applications. I&apos;ve worked both independently and as part of cross-functional teams to deliver impactful solutions for sectors including digital identity, enterprise collaboration, and financial services.
                 </p>
                 <p className="mb-4">
                     My core strengths lie in the <b>MERN/MEAN stack</b>, with deep proficiency in <b>React</b>, <b>Next.js</b>, <b>Angular</b>, and <b>Redux</b> for building responsive and intuitive user interfaces. On the backend, I have hands-on experience with <b>Nodejs</b>, <b>Nestjs</b>, <b>Java and Spring Boot</b>, building RESTful APIs, integrating with relational and non relational databases, and delivering production-grade enterprise applications.

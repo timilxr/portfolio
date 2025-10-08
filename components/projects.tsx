@@ -1,14 +1,13 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { projects } from "../common/data";
 import Image from "next/image";
-import { useShowMoreWithReset } from "../hooks/useShowMoreWithReset";
+import { useShowMore } from "../hooks/useShowMore";
 
 const Projects = () => {
-    const { sectionRef, itemsToShow, visibleCount, handleShowMore } = useShowMoreWithReset(projects, 3);
+    const { itemsToShow, visibleCount, handleShowMore } = useShowMore(projects, 3);
 
     return (
         <motion.section
-            ref={sectionRef}
             id="projects"
             className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
             aria-label="Selected projects"

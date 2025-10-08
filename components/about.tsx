@@ -6,7 +6,7 @@ const About = () => {
             id="about"
             className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
             aria-label="About me"
-            initial={{ opacity: 0, y: 40 }}
+            initial={{ opacity: 0.1, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 1, ease: "easeOut" }}

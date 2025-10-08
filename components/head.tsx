@@ -14,7 +14,7 @@ const HeadContent = () => {
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
       <div>
         <div className="flex justify-start mb-6">
-          <div className="relative h-24 w-24">
+          <div className="relative h-40 w-40">
             <Image
               src={Photo}
               alt="Ayorinde Timilehin"
@@ -28,7 +28,7 @@ const HeadContent = () => {
         <h1 className="text-2xl font-bold tracking-tight text-slate-200 sm:text-3xl">Hi, I&apos;m </h1>
         <h2 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl"><Link href="/">Ayorinde Timilehin</Link></h2>
         <h3 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">Fullstack Software Engineer | React, Next.js, Node.js, Spring Boot</h3>
-        <p className="mt-4 max-w-xs leading-normal">I design and build scalable, high-performance web applications, from sleek user interfaces to robust backend systems that solve real-world problems and deliver measurable results.</p>
+        <p className="mt-4 max-w-sm leading-normal text-justify">I design and build scalable, high-performance web applications, from sleek user interfaces to robust backend systems that solve real-world problems and deliver measurable results.</p>
         <nav className="nav hidden lg:block" aria-label="In-page jump links">
           <ul className="mt-16 w-max">
             {sectionIds.map((id) => (

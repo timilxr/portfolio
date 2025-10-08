@@ -11,7 +11,7 @@ const Projects = () => {
             id="projects"
             className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
             aria-label="Selected projects"
-            initial={{ opacity: 0, y: 40 }}
+            initial={{ opacity: 0.2, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 1, ease: "easeOut" }}
@@ -34,7 +34,7 @@ const Projects = () => {
                             >
                                 <a href={project?.url} target="_blank" rel="noreferrer" aria-label={project?.name} className="group grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50 hover:text-slate-200">
                                     <div className="sm:order-2 sm:col-span-6">
-                                        <h3 className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base">
+                                        <h3 className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 group-hover:text-teal-300 focus-visible:text-teal-300 group/link text-base">
                                             <span>{project?.name}</span>
                                         </h3>
                                         <p className="mt-2 text-sm leading-normal">{project.description}</p>

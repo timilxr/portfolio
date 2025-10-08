@@ -11,7 +11,7 @@ const Experience = () => {
       layout
       className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
       aria-label="Work experience"
-      initial={{ opacity: 0, y: 40 }}
+      initial={{ opacity: 0.2, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 1, ease: "easeOut" }}
@@ -29,7 +29,7 @@ const Experience = () => {
                 transition={{ duration: 0.4, ease: "easeOut" }}
                 className="mb-12"
               >
-                <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4">
+                <div className="group relative lg:hover:!opacity-100 lg:group-hover/list:opacity-50 grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4">
                   <header
                     className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
                     aria-label={role?.date}
@@ -88,6 +88,7 @@ const Experience = () => {
           </motion.div>
         )}
       </div>
+      <div className="mt-12"><a className="inline-flex items-center font-medium leading-tight text-slate-200 font-semibold text-slate-200 group" aria-label="View Résumé" target="_blank" href="/resume.pdf"><span><span className="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">View </span><span className="whitespace-nowrap"><span className="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">Résumé</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="ml-1 inline-block h-4 w-4 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none" aria-hidden="true"><path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd"></path></svg></span></span></a></div>
     </motion.section>
   );
 };

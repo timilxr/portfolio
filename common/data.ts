@@ -4,15 +4,16 @@ export const roles = [
         companyWebUrl: "https://seamfix.com/",
         role: "Software Engineer",
         date: "2022 - PRESENT",
-        technologies: ["HTML5", "CSS", "Angular", "Bootstrap", "Angular Material", "Angular Bootstrap", "Java", "SpringBoot", "JSP", "JSTL", "NestJs", "Ionic", "SCSS"],
+        technologies: ["HTML5", "CSS", "JavaScript", "Typescript", "Angular", "React", "Bootstrap", "Angular Material", "Angular Bootstrap", "Java", "SpringBoot", "JSP", "JSTL", "NestJs", "Ionic", "SCSS"],
         achievements: [
-            "Communicated with internal stakeholders ensuring business requirements are met.",
+            "Improved web app performance and responsiveness by up to 20%, enhancing experience across 50K+ sessions.",
+            "Delivered enterprise-grade web solutions serving millions of users across multiple platforms.",
+            "Modernized legacy systems, improving scalability by 75% and reducing bugs by 86%.",
+            "Developed and maintained RESTful APIs supporting enterprise dashboards and internal tools for 10,000+ users",
             "Increased product efficiency by doing thorough code reviews and ensuring high code quality is maintained with proper tests ensuring every integration or business logic entry point has at least 2 unit or integration tests written to assert 1 normal/use case & 1 edge case.",
-            "Collaborated with product managers and UX designers to create intuitive user interfaces and improve overall user experience. Implemented responsive designs and optimized front-end performance, resulting in a 20% reduction in page load times.",
-            "Analyzing code, requirements, system risks, and software reliability.",
-            "Performed root cause analysis and automated report to identify data issues within different databases.",
-            "Effective collaboration with team members and stakeholders to deliver requirements.",
-            "Utilized version control (Git) and collaborated with a team of developers to deliver the project within the set timelines."
+            "Upgraded legacy Java EE modules to Spring Boot, cutting service initialization time by 40% and improving maintainability",
+            "Migrated the codebase from Java 8 to Java 17, enhancing security and leveraging newer language features",
+            "Integrated SOAP-based third-party systems to support national SIM registration and biometric verification",
         ]
     },
     {
@@ -20,17 +21,19 @@ export const roles = [
         companyWebUrl: "https://alluvium.net/",
         role: "Lead Frontend Engineer",
         date: "2022 - PRESENT",
-        technologies: ["HTML5", "CSS", "Next JS", "React", "Bootstrap", "Tailwind", "SCSS"],
+        technologies: ["HTML5", "CSS", "Next JS", "Typescript", "React", "Bootstrap", "Tailwind", "SCSS"],
         achievements: [
+            "Acted as primary liaison with clients and stakeholders, achieving a 100% acceptance rate for product deliverables.",
+            "Mentored junior engineers, improving delivery velocity and cutting integration bugs by 80%.",
+            "Collaborated with frontend developers to ensure seamless API integration and reduce bugs by 40% during UAT.",
+            "Led a frontend team of 4 developers to build a React.js learning management platform, improving scalability by 68% and supporting a growing student base.",
+            "Designed responsive, Tailwind-powered UIs, driving a 70% increase in mobile engagement across multiple clients.",
+            "Architected and integrated secure RESTful APIs, enhancing data integrity and reducing downtime incidents.",
             "Ensured business requirements are met by communicating with internal and external stakeholders.",
-            "Optimization for applications for utmost speed and scalability",
-            "Analyzing code, requirements, system risks, and software reliability.",
-            "Utilized agile methodologies and participated in daily stand-ups, sprint planning, and retrospective meetings to ensure timely project delivery.",
-            "Led a team of 4 developers in the design and development of the company website, Jira and Confluence applications, alluvium university website, the learning Management system and more.",
-            "Developed RESTful APIs and backend services using Node.js and Express, facilitating seamless integration between front-end and backend systems. Implemented token-based authentication and authorization for enhanced security.",
-            "Utilizing tools like Reactjs, Nestjs, MongoDB, ExpressJs, Git, Redis, NodeJs, Bootstrap, Jquery, TailwindCss and VanillaJS",
-            "Integration of UI components and integration with front and backend APIs.",
-            "Conducted code reviews and mentored junior team members to ensure code quality and adherence to best practices."
+            "Participated in development of the company's LMS and scaling to support 2,000+ daily users.",
+            "Designed and implemented reusable React components and page layouts for consistent UI across platforms.",
+            "Exposed backend APIs using Next.js and Node.js for lesson delivery, quiz management, and analytics.",
+            "Led a team of 4 developers in the design and development of the Atlassian Plugins, company website, alluvium university website and more.",
         ]
     },
     {
@@ -40,19 +43,84 @@ export const roles = [
         date: "SEPT - DEC 2021",
         technologies: ["HTML5", "CSS", "React", "Node", "Express", "Bootstrap", "SCSS"],
         achievements: [
-            "Contract based employment to collaborate with the team on 3 products for a few months.",
-            "facilitating seamless restful API integration between front-end and backend systems. Implemented token-based authentication and authorization for enhanced security.",
+            "Delivered 3 custom client projects with secure REST API integrations, reducing onboarding time for new features.",
+            "Implemented unit testing and integrated testing, increasing test coverage by 60% and reducing the number of critical bugs by 30%.",
             "Optimized existing solution and improved system performance, resulting in a 20% reduction in load times and increased overall scalability.",
-            "Implemented automated unit testing using Jest, increasing test coverage by 60% and reducing the number of critical bugs by 30%.",
-            "Collaborated with cross-functional teams to troubleshoot and resolve critical production issues, ensuring smooth operations and minimizing downtime."
+            "Collaborated with cross-functional teams to troubleshoot and resolve critical production issues, ensuring smooth operations and minimizing downtime.",
+            "facilitated seamless restful API integration between front-end and backend systems. Implemented token-based authentication and authorization for enhanced security.",
+            "Contract based employment to collaborate with the team on 3 products for a few months.",
+        ]
+    },
+    {
+        company: "Kadick Integrated Limited",
+        companyWebUrl: "https://kadickintegrated.com/",
+        role: "Fullstack Web Developer",
+        date: "AUG 2021 - MAY 2022",
+        technologies: ["HTML5", "CSS", "JavaScript", "Typescript", "React", "Next.js", "Node", "Express", "Bootstrap", "SCSS", "MongoDB", "Mongoose"],
+        achievements: [
+            "Developed over 20 REST APIs using Node.js to power mobile and web apps used by field agents and internal teams.",
+            "Implemented and documented APIs for user registration, authentication, dashboard analytics, and GPS-based location tracking.",
+            "Used Postman for API documentation and internal testing, reducing onboarding time for new developers by 50%.",
+            "Reduced page load time by 18% by optimizing backend logic and asynchronous operations.",
+            "Championed best practices through code reviews and mentoring, raising overall team code quality.",
+        ]
+    },
+    {
+        company: "Terra (Side Hustle)",
+        companyWebUrl: "https://lms.terrahq.co/",
+        role: "Frontend Developer",
+        date: "AUG 2021 - MAY 2022",
+        technologies: ["HTML5", "CSS", "JavaScript", "React", "Bootstrap"],
+        achievements: [
+            "Developing features to enhance the user experience, ensuring web design is optimized for different device widths",
+            "Maintaining brand consistency throughout the design and work in teams alongside backend developers, graphics designers and user experience designers to ensure all elements of web creation are consistent.",
+            "Built and deployed features with React.js and Node.js, integrated APIs, and collaborated in Agile sprints."
+        ]
+    },
+    {
+        company: "HNG Tech",
+        companyWebUrl: "https://hng.tech/",
+        role: "Frontend Developer",
+        date: "SEP 2019 - JUL 2020",
+        technologies: ["HTML5", "CSS", "JavaScript", "React", "Bootstrap"],
+        achievements: [
+            "Developing features to enhance the user experience, ensuring web design is optimized for different device widths",
+            "Maintaining brand consistency throughout the design and work in teams alongside backend developers, graphics designers and user experience designers to ensure all elements of web creation are consistent.",
+            "Built and deployed features with React.js and Node.js, integrated APIs, and collaborated in Agile sprints."
+        ]
+    },
+    {
+        company: "The SmartHub Technology and Solutions",
+        companyWebUrl: "https://www.linkedin.com/company/thesmarthubng/",
+        role: "Frontend Developer",
+        date: "SEP 2019 - JUL 2020",
+        technologies: ["HTML5", "CSS", "JavaScript", "React", "Angular", "Bootstrap"],
+        achievements: [
+            "Developing features to enhance the user experience, ensuring web design is optimized for different device widths",
+            "Maintaining brand consistency throughout the design and work in teams alongside backend developers, graphics designers and user experience designers to ensure all elements of web creation are consistent.",
+            "Built and deployed features with React.js and Node.js, integrated APIs, and collaborated in Agile sprints."
         ]
     },
 ];
 
 export const projects = [
      {
+        image: "acme.jpeg",
+        name: "ACME Dashboard Web Application",
+        technologies: ["HTML5", "CSS", "Typescript", "Next JS", "React", "Tailwind CSS", "SCSS", "PostgreSQL", "Prisma ORM", "Vercel"],
+        url: "https://next-learn-dashboard.vercel.app/",
+        description: "Use **Email:** user@nextmail.com  **Password:** 123456 to login. I built a full-featured dashboard application using Next.js 13 App Router. The project demonstrates my ability to develop scalable, production-ready web applications with modern best practices. This project reflects how I approach real-world app development — balancing performance, maintainability, and user experience. Key features include: App Router & File-based Routing, Dynamic Data Fetching, Authentication & Security, Database Integration, API Routes, Styling & UI, Deployment",
+    },
+     {
+        image: "foodie.png",
+        name: "Foodies Web Application",
+        technologies: ["HTML5", "CSS", "Typescript", "Next JS", "React", "Tailwind CSS", "SCSS", "SQLite3", "Vercel"],
+        url: "https://foodies-tau-nine.vercel.app/",
+        description: "I built a full-featured Foodies Web application where people can come to share their favorite food recipes using Next.js 13 App Router. The project demonstrates my ability to develop scalable, production-ready web applications with modern best practices. This project reflects how I approach real-world app development — balancing performance, maintainability, and user experience. Key features include: App Router & File-based Routing, Dynamic Data Fetching, Authentication & Security, Database Integration, API Routes, Styling & UI, Deployment",
+    },
+     {
         image: "next-gen.png",
-        name: "Nextgen Innovators Foundation Website",
+        name: "Nextgen Innovators Foundation Web App",
         technologies: ["HTML5", "CSS", "Next JS", "React", "Tailwind CSS", "SCSS", "Firebase", "Firebase Auth", "Firebase Firestore"],
         url: "https://next-gen-innovation.vercel.app/",
         description: "The purpose of the foundation is to provide children with the tools, resources, and support they need to become the next generation of innovators and problem-solvers. As a full stack Web Developer with Nextgen Innovators Foundation, I was tasked with optimizing the UI/UX of the this website, the in-house solution that is used to track and manage the product and business. I also helped implement the authentication and database management system using Firebase.",
